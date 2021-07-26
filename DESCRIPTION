@@ -1,7 +1,7 @@
 Package: param6
 Title: A Fast and Lightweight R6 Parameter Interface
 Description: By making use of 'set6', alongside the S3 and R6 paradigms, this package provides a fast and lightweight R6 interface for parameters and parameter sets.
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
   person(given = "Raphael",
              family = "Sonabend",
@@ -11,13 +11,15 @@ Authors@R:
 License: MIT + file LICENSE
 URL: https://xoopR.github.io/param6/, https://github.com/xoopR/param6/
 BugReports: https://github.com/xoopR/param6/issues
+Config/testthat/edition: 3
 Encoding: UTF-8
 NeedsCompilation: no
 RoxygenNote: 7.1.1
-Imports: checkmate, data.table, set6 (>= 0.2.0), R6
+Imports: checkmate, data.table, dictionar6 (>= 0.1.2), set6 (>= 0.2.3),
+        R6
 Suggests: testthat
-Packaged: 2021-03-15 09:40:16 UTC; raphael
+Packaged: 2021-07-26 20:07:12 UTC; raphaelsonabend
 Author: Raphael Sonabend [aut, cre] (<https://orcid.org/0000-0001-9225-4654>)
 Maintainer: Raphael Sonabend <raphaelsonabend@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-03-17 13:20:05 UTC
+Date/Publication: 2021-07-26 20:20:02 UTC
