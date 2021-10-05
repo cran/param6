@@ -52,8 +52,8 @@ ParameterSet$new(prms)
 ```
 
     ##    Id Support Value Tags
-    ## 1:  a       R     1     
-    ## 2:  b      N0
+    ## 1:  a       ℝ     1     
+    ## 2:  b      ℕ0
 
 -   Tagging parameters with properties
 
@@ -67,8 +67,8 @@ ParameterSet$new(prms,
 ```
 
     ##    Id Support Value Tags
-    ## 1:  a       R     1   t1
-    ## 2:  b    N0^n         t2
+    ## 1:  a       ℝ     1   t1
+    ## 2:  b    ℕ0^n         t2
 
 -   Getting and setting parameter values
 
